@@ -16,6 +16,8 @@ h1 {
 .para {
     text-align: center;
     color: black;
+    padding-left: 1cm;
+    padding-right: 1cm;
 }
 .newspaper {
     -webkit-column-count: 3; /* Chrome, Safari, Opera */
@@ -29,4 +31,8 @@ h1 {
 .service{
     text-align: center;
     padding-block-end: 1cm;
+}
+.node{
+    padding-block-end: 1cm;
+    padding-left: 10px
 }
