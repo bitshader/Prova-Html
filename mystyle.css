@@ -1,23 +1,32 @@
 body {
-    background-color: lightblue;
+    background-color: rgb(231, 235, 236);
 }
 
 h1 {
-    color: navy;
+    color: black;
     margin-left: 20px;
 }
 
 .cities {
     text-align: center;
-    color: red;
+    color: black;
+    padding-block-end: 5%;
 }
 
 .para {
     text-align: center;
-    color: blue;
+    color: black;
 }
 .newspaper {
     -webkit-column-count: 3; /* Chrome, Safari, Opera */
     -moz-column-count: 3; /* Firefox */
     column-count: 3;
+}
+.centre{
+    text-align: center;
+    padding-block-end: 5%;
+}
+.service{
+    text-align: center;
+    padding-block-end: 1cm;
 }
